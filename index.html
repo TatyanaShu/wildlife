@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WILDLIFE</title>
+    <link rel="stylesheet" href="style/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <header class="main_hero">
+        <div class="nav_bar main_hero">
+            <div class="logo">
+              <a href="#">
+                <img src="assets/img/logo.svg" alt="logo" />
+                <h1>WILDLIFE</h1>
+              </a>
+            </div>
+            <nav>
+              <ul class="navigation">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li class="lupa">
+                  <a href="#">
+                    <img src="assets/img/lupa.png" alt="search" />
+                  </a>
+                </li>
+                <li>
+                  <button class="enter">Sign in</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </header>
+      <section class="main_hero">
+        <div class="survival">
+            <div class="text_block">
+              <h2>Survival</h2>
+              <p> What this means is that we exist to help protect our environment
+                and do in numbers of ways. You can save the planet by donation.
+              </p>
+              <button>Donate</button>
+            </div>
+        </div>
+      </section>
+    </div>
+    <div class="main_part">
+        <main class="main_hero">
+            <div class="articles">
+                <h2>Latest articles</h2>
+                <p>Breaking news from the wild</p>
+            </div>
+            <div class="slider">
+                <button class="previous">
+                    <img src="assets/img/arrow_left.svg"
+                    alt="arrow_left" onclick="previosSlide()"/>
+                </button>
+                <figure class="item">
+                    <img src="assets/img/deer.jpg" alt="deep" />
+                    <figcaption>
+                        <h4>Deer</h4>
+                        <p>Naturalist investigation</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="assets/img/squirel.jpg" alt="squirel" />
+                    <figcaption>
+                        <h4>Squirrel</h4>
+                        <p>Kamikaze squirrels</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="assets/img/bird.jpg" alt="bird" />
+                    <figcaption>
+                        <h4>Bird</h4>
+                        <p>Birds Fight club</p>
+                    </figcaption>
+                </figure>
+                <button class="next">
+                    <img src="assets/img/arrow_right.svg"
+                alt="arrow_right" onclick="nextSlide()"/>
+                </button>
+            </div>
+            <div class="notified">
+                <h3>Get notified about new amazing articles</h3>
+                <form action="get">
+                    <input type="email" placeholder="Email"  />
+                    <input type="submit" value="Send"/>
+                </form>
+            </div>
+        </main>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="footer_block">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/img/logo.svg" alt="logo" />
+              <h2>WILDLIFE</h2>
+            </a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Learn more</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a class="facebook" href="https://www.facebook.com/">
+                <!-- <img src="assets/img/facebook.svg" alt="facebook"> -->
+              </a></li>
+              <li><a class="instagram"  href="https://www.instagram.com/?hl=ru">
+                <!-- <img src="assets/img/instagram.svg" alt="instagram"> -->
+              </a></li>
+              <li><a class="pinterest" href="https://www.pinterest.com/">
+                <!-- <img src="assets/img/pinterest.svg" alt="pinterest"> -->
+              </a></li>
+              <li><a class="telegram" href="https://web.telegram.org/#/login">
+                <!-- <img src="assets/img/telegram.svg" alt="telegram"> -->
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
